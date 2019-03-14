@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenido a su conversor de moneda</title>
+</head>
+<body>
+    
+  <!-- <div class="contenidos">
+    <label>Monto:</label>
+    <input id="monto" type="number" placeholder="Monto en dolares">
+  </div>
+
+  <button>
+      convertir a pesos colombianos
+  </button> -->
+
+  <h2>Conversor de moneda.</h2>
+  <p>
+  <label>Euros (EUR)</label>
+  <input id="inputEuros" type="number" placeholder=" ingrese los Euros que va a convertir" oninput="eurosDolares(this.value)" onchange="eurosDolares(this.value)">
+</p>
+<p>
+  <label>Dolares (USD)</label>
+  <input id="inputDolares" type="number" placeholder="ingrese los Dolares que va a convertir" oninput="dolaresEuros(this.value)" onchange="dolaresEuros(this.value)">
+</p>
+
+<p>
+    <label>Peso Colombiano (COP)</label>
+    <input id="inputPesos" type="number" placeholder="ingrese los Pesos que desea cambiar" oninput="eurosPesos(this.value)" onchange="eurosPesos(this.value)" >
+</p>
+
+
+
+<script src="js/Conversor.js"></script>
+</body>
+</html>
