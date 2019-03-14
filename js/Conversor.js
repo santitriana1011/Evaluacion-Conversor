@@ -31,12 +31,5 @@
 function eurosDolares(valNum) {
     document.getElementById("inputDolares").value=valNum* 0.000318691;
   }
-  function dolaresEuros(valNum) {
-    document.getElementById("inputEuros").value=valNum* 1.13009;
-
-  function eurosPesos(valNum) {
-      document.getElementById("inputPesos").value=valNum* 0.000318453;
-  }
-  }
 
 
